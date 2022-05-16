@@ -15,6 +15,6 @@
       <guid>33c6e780-e853-4150-8058-44ed275bae4c</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Aha</testCaseId>
+      <testCaseId>Test Cases/Aha - Full Page</testCaseId>
    </testCaseLink>
 </TestSuiteEntity>

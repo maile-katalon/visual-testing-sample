@@ -15,6 +15,6 @@
       <guid>8f69b45d-a1ba-49a2-806d-4370af357631</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/kbb - short</testCaseId>
+      <testCaseId>Test Cases/KBB - First Page</testCaseId>
    </testCaseLink>
 </TestSuiteEntity>

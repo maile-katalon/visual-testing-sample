@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>Petronas</name>
+   <name>Aha - Full Page</name>
    <tag></tag>
    <comment></comment>
-   <testCaseGuid>b2e2019b-b44c-4d87-a42a-6401d087fb2c</testCaseGuid>
+   <testCaseGuid>445ed3db-ca0c-4d7c-adca-89c3c0c803ff</testCaseGuid>
 </TestCaseEntity>

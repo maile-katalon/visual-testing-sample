@@ -15,6 +15,6 @@
       <guid>23d322c9-49a6-4880-84d0-779bc237aec4</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/KMS</testCaseId>
+      <testCaseId>Test Cases/KMS - Full Page</testCaseId>
    </testCaseLink>
 </TestSuiteEntity>

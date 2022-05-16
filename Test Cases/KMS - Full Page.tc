@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>Aha</name>
+   <name>KMS - Full Page</name>
    <tag></tag>
    <comment></comment>
-   <testCaseGuid>445ed3db-ca0c-4d7c-adca-89c3c0c803ff</testCaseGuid>
+   <testCaseGuid>645e1436-c40a-4022-8b2e-985fbaf7b5c4</testCaseGuid>
 </TestCaseEntity>

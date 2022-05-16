@@ -17,9 +17,11 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-
 WebUI.openBrowser('')
 
-WebUI.navigateToUrl('https://www.aha.io/')
+WebUI.navigateToUrl('https://www.kbb.ca/acura/')
 
-WebUI.takeScreenshotAsCheckpoint('current_viewport')
+WebUI.click(findTestObject('Object Repository/Page_Used Acura Prices Cars  SUVs  KBB.CA/span'))
+
+WebUI.takeFullPageScreenshotAsCheckpoint('kbb_short')
+

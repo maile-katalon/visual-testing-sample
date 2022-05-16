@@ -15,6 +15,6 @@
       <guid>e0300445-ee67-47d3-b56d-cba98c77f51c</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Petronas</testCaseId>
+      <testCaseId>Test Cases/Petronas - First Page</testCaseId>
    </testCaseLink>
 </TestSuiteEntity>

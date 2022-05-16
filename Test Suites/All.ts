@@ -15,12 +15,12 @@
       <guid>14a22801-a088-4755-8b43-54478929b6be</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Aha - Short</testCaseId>
+      <testCaseId>Test Cases/Aha - First Page</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>4138a3dc-66ca-4767-8f22-92c6b0d821ec</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Petronas</testCaseId>
+      <testCaseId>Test Cases/Petronas - First Page</testCaseId>
    </testCaseLink>
 </TestSuiteEntity>

@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>KMS</name>
+   <name>KBB - Full Page</name>
    <tag></tag>
    <comment></comment>
-   <testCaseGuid>645e1436-c40a-4022-8b2e-985fbaf7b5c4</testCaseGuid>
+   <testCaseGuid>930e6486-490a-4ae7-b585-177a7fa53e5d</testCaseGuid>
 </TestCaseEntity>

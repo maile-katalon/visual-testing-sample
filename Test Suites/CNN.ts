@@ -15,6 +15,6 @@
       <guid>df0ddb0c-2d07-4bd1-9f91-e25b8f61dbff</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/CNN</testCaseId>
+      <testCaseId>Test Cases/CNN - Full Page</testCaseId>
    </testCaseLink>
 </TestSuiteEntity>
