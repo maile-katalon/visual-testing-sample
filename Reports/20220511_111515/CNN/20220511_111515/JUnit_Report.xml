@@ -1,0 +1,487 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="CNN" time="142.974" tests="1" failures="1" errors="0">
+   <testsuite name="CNN" tests="1" failures="1" errors="0" time="142.974" skipped="0" timestamp="2022-05-11 11:15:22" hostname="maile - localhost" id="Test Suites/CNN">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="/Volumes/Data/katalon/sample-project/visual-testing/Visual Testing Demo/Reports/20220511_111515/CNN/20220511_111515"/>
+         <property name="logFiles" value="/Volumes/Data/katalon/sample-project/visual-testing/Visual Testing Demo/Reports/20220511_111515/CNN/20220511_111515/execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="maile - localhost"/>
+         <property name="os" value="Mac OS X 64bit"/>
+         <property name="katalonVersion" value="8.2.5.208"/>
+         <property name="browser" value="Chrome 101.0.4951.64"/>
+         <property name="hostAddress" value="127.0.0.1"/>
+         <property name="sessionId" value="10ca3d85413c11c068fce9c3459946e5"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Mac OS X"/>
+      </properties>
+      <testcase name="Test Cases/CNN" time="2.795" classname="Test Cases/CNN" status="FAILED">
+         <failure type="FAILED" message="Test Cases/CNN FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Cannot take screenshot
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.TakeFullPageScreenshotKeyword.takeScreenshot(TakeFullPageScreenshotKeyword.groovy:125)
+	at com.kms.katalon.core.webui.keyword.builtin.TakeFullPageScreenshotKeyword.execute(TakeFullPageScreenshotKeyword.groovy:82)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.takeFullPageScreenshotAsCheckpoint(WebUiBuiltInKeywords.groovy:3431)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$takeFullPageScreenshotAsCheckpoint$1.call(Unknown Source)
+	at CNN.run(CNN:24)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:363)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:363)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:363)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1652292915800.run(TempTestSuite1652292915800.groovy:36)
+Caused by: org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=101.0.4951.64)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'Mais-MacBook-Pro.local', ip: 'fe80:0:0:0:df:8530:4068:1ee%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '1.8.0_275'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 101.0.4951.64, chrome: {chromedriverVersion: 101.0.4951.41 (93c720db8323..., userDataDir: /var/folders/j0/1r5r67yd2s1...}, goog:chromeOptions: {debuggerAddress: localhost:52390}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 10ca3d85413c11c068fce9c3459946e5
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:19)
+	at org.openqa.selenium.remote.RemoteWebDriver.executeScript(RemoteWebDriver.java:489)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.lambda$new$1(EventFiringWebDriver.java:105)
+	at com.sun.proxy.$Proxy10.executeScript(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.executeScript(EventFiringWebDriver.java:229)
+	at com.assertthat.selenium_shutterbug.utils.web.Browser.executeJsScript(Browser.java:668)
+	at com.assertthat.selenium_shutterbug.utils.web.Browser.&lt;init>(Browser.java:83)
+	at com.assertthat.selenium_shutterbug.core.Shutterbug.shootPage(Shutterbug.java:139)
+	at com.assertthat.selenium_shutterbug.core.Shutterbug.shootPage(Shutterbug.java:83)
+	at com.assertthat.selenium_shutterbug.core.Shutterbug.shootPage(Shutterbug.java:69)
+	at com.kms.katalon.core.webui.util.FileUtil.takeFullPageScreenshot(FileUtil.java:86)
+	at com.kms.katalon.core.webui.keyword.builtin.TakeFullPageScreenshotKeyword$_takeScreenshot_closure1.doCall(TakeFullPageScreenshotKeyword.groovy:126)
+	at com.kms.katalon.core.webui.keyword.builtin.TakeFullPageScreenshotKeyword$_takeScreenshot_closure1.call(TakeFullPageScreenshotKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 22 more
+"/>
+         <system-out><![CDATA[2022-05-11 11:17:42 - [TEST_CASE][FAILED] - Test Cases/CNN: Test Cases/CNN FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Cannot take screenshot
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.TakeFullPageScreenshotKeyword.takeScreenshot(TakeFullPageScreenshotKeyword.groovy:125)
+	at com.kms.katalon.core.webui.keyword.builtin.TakeFullPageScreenshotKeyword.execute(TakeFullPageScreenshotKeyword.groovy:82)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.takeFullPageScreenshotAsCheckpoint(WebUiBuiltInKeywords.groovy:3431)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$takeFullPageScreenshotAsCheckpoint$1.call(Unknown Source)
+	at CNN.run(CNN:24)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:363)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:363)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:363)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1652292915800.run(TempTestSuite1652292915800.groovy:36)
+Caused by: org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=101.0.4951.64)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'Mais-MacBook-Pro.local', ip: 'fe80:0:0:0:df:8530:4068:1ee%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '1.8.0_275'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 101.0.4951.64, chrome: {chromedriverVersion: 101.0.4951.41 (93c720db8323..., userDataDir: /var/folders/j0/1r5r67yd2s1...}, goog:chromeOptions: {debuggerAddress: localhost:52390}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 10ca3d85413c11c068fce9c3459946e5
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:19)
+	at org.openqa.selenium.remote.RemoteWebDriver.executeScript(RemoteWebDriver.java:489)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.lambda$new$1(EventFiringWebDriver.java:105)
+	at com.sun.proxy.$Proxy10.executeScript(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.executeScript(EventFiringWebDriver.java:229)
+	at com.assertthat.selenium_shutterbug.utils.web.Browser.executeJsScript(Browser.java:668)
+	at com.assertthat.selenium_shutterbug.utils.web.Browser.<init>(Browser.java:83)
+	at com.assertthat.selenium_shutterbug.core.Shutterbug.shootPage(Shutterbug.java:139)
+	at com.assertthat.selenium_shutterbug.core.Shutterbug.shootPage(Shutterbug.java:83)
+	at com.assertthat.selenium_shutterbug.core.Shutterbug.shootPage(Shutterbug.java:69)
+	at com.kms.katalon.core.webui.util.FileUtil.takeFullPageScreenshot(FileUtil.java:86)
+	at com.kms.katalon.core.webui.keyword.builtin.TakeFullPageScreenshotKeyword$_takeScreenshot_closure1.doCall(TakeFullPageScreenshotKeyword.groovy:126)
+	at com.kms.katalon.core.webui.keyword.builtin.TakeFullPageScreenshotKeyword$_takeScreenshot_closure1.call(TakeFullPageScreenshotKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 22 more
+
+
+2022-05-11 11:17:42 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-05-11 11:17:42 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2022-05-11 11:17:42 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-05-11 11:17:42 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-05-11 11:17:44 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-05-11 11:17:44 - [TEST_STEP][PASSED] - navigateToUrl("https://www.cnn.com/"): Navigate to 'https://www.cnn.com/' successfully
+
+2022-05-11 11:17:45 - [MESSAGE][PASSED] - Navigate to 'https://www.cnn.com/' successfully
+
+2022-05-11 11:17:45 - [TEST_STEP][FAILED] - takeFullPageScreenshotAsCheckpoint("full_view"): Cannot take screenshot (Root cause: com.kms.katalon.core.exception.StepFailedException: Cannot take screenshot
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.TakeFullPageScreenshotKeyword.takeScreenshot(TakeFullPageScreenshotKeyword.groovy:125)
+	at com.kms.katalon.core.webui.keyword.builtin.TakeFullPageScreenshotKeyword.execute(TakeFullPageScreenshotKeyword.groovy:82)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.takeFullPageScreenshotAsCheckpoint(WebUiBuiltInKeywords.groovy:3431)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$takeFullPageScreenshotAsCheckpoint$1.call(Unknown Source)
+	at CNN.run(CNN:24)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:363)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:363)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:363)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1652292915800.run(TempTestSuite1652292915800.groovy:36)
+Caused by: org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=101.0.4951.64)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'Mais-MacBook-Pro.local', ip: 'fe80:0:0:0:df:8530:4068:1ee%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '1.8.0_275'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 101.0.4951.64, chrome: {chromedriverVersion: 101.0.4951.41 (93c720db8323..., userDataDir: /var/folders/j0/1r5r67yd2s1...}, goog:chromeOptions: {debuggerAddress: localhost:52390}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 10ca3d85413c11c068fce9c3459946e5
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:19)
+	at org.openqa.selenium.remote.RemoteWebDriver.executeScript(RemoteWebDriver.java:489)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.lambda$new$1(EventFiringWebDriver.java:105)
+	at com.sun.proxy.$Proxy10.executeScript(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.executeScript(EventFiringWebDriver.java:229)
+	at com.assertthat.selenium_shutterbug.utils.web.Browser.executeJsScript(Browser.java:668)
+	at com.assertthat.selenium_shutterbug.utils.web.Browser.<init>(Browser.java:83)
+	at com.assertthat.selenium_shutterbug.core.Shutterbug.shootPage(Shutterbug.java:139)
+	at com.assertthat.selenium_shutterbug.core.Shutterbug.shootPage(Shutterbug.java:83)
+	at com.assertthat.selenium_shutterbug.core.Shutterbug.shootPage(Shutterbug.java:69)
+	at com.kms.katalon.core.webui.util.FileUtil.takeFullPageScreenshot(FileUtil.java:86)
+	at com.kms.katalon.core.webui.keyword.builtin.TakeFullPageScreenshotKeyword$_takeScreenshot_closure1.doCall(TakeFullPageScreenshotKeyword.groovy:126)
+	at com.kms.katalon.core.webui.keyword.builtin.TakeFullPageScreenshotKeyword$_takeScreenshot_closure1.call(TakeFullPageScreenshotKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.TakeFullPageScreenshotKeyword.takeScreenshot(TakeFullPageScreenshotKeyword.groovy:125)
+	at com.kms.katalon.core.webui.keyword.builtin.TakeFullPageScreenshotKeyword.execute(TakeFullPageScreenshotKeyword.groovy:82)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.takeFullPageScreenshotAsCheckpoint(WebUiBuiltInKeywords.groovy:3431)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$takeFullPageScreenshotAsCheckpoint$1.call(Unknown Source)
+	at Script1651859552636.run(Script1651859552636.groovy:24)
+	... 16 more
+)
+
+2022-05-11 11:17:45 - [MESSAGE][FAILED] - Cannot take screenshot (Root cause: com.kms.katalon.core.exception.StepFailedException: Cannot take screenshot
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.TakeFullPageScreenshotKeyword.takeScreenshot(TakeFullPageScreenshotKeyword.groovy:125)
+	at com.kms.katalon.core.webui.keyword.builtin.TakeFullPageScreenshotKeyword.execute(TakeFullPageScreenshotKeyword.groovy:82)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.takeFullPageScreenshotAsCheckpoint(WebUiBuiltInKeywords.groovy:3431)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$takeFullPageScreenshotAsCheckpoint$1.call(Unknown Source)
+	at CNN.run(CNN:24)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:363)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:363)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:363)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1652292915800.run(TempTestSuite1652292915800.groovy:36)
+Caused by: org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=101.0.4951.64)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'Mais-MacBook-Pro.local', ip: 'fe80:0:0:0:df:8530:4068:1ee%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '1.8.0_275'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 101.0.4951.64, chrome: {chromedriverVersion: 101.0.4951.41 (93c720db8323..., userDataDir: /var/folders/j0/1r5r67yd2s1...}, goog:chromeOptions: {debuggerAddress: localhost:52390}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 10ca3d85413c11c068fce9c3459946e5
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:19)
+	at org.openqa.selenium.remote.RemoteWebDriver.executeScript(RemoteWebDriver.java:489)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.lambda$new$1(EventFiringWebDriver.java:105)
+	at com.sun.proxy.$Proxy10.executeScript(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.executeScript(EventFiringWebDriver.java:229)
+	at com.assertthat.selenium_shutterbug.utils.web.Browser.executeJsScript(Browser.java:668)
+	at com.assertthat.selenium_shutterbug.utils.web.Browser.<init>(Browser.java:83)
+	at com.assertthat.selenium_shutterbug.core.Shutterbug.shootPage(Shutterbug.java:139)
+	at com.assertthat.selenium_shutterbug.core.Shutterbug.shootPage(Shutterbug.java:83)
+	at com.assertthat.selenium_shutterbug.core.Shutterbug.shootPage(Shutterbug.java:69)
+	at com.kms.katalon.core.webui.util.FileUtil.takeFullPageScreenshot(FileUtil.java:86)
+	at com.kms.katalon.core.webui.keyword.builtin.TakeFullPageScreenshotKeyword$_takeScreenshot_closure1.doCall(TakeFullPageScreenshotKeyword.groovy:126)
+	at com.kms.katalon.core.webui.keyword.builtin.TakeFullPageScreenshotKeyword$_takeScreenshot_closure1.call(TakeFullPageScreenshotKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.TakeFullPageScreenshotKeyword.takeScreenshot(TakeFullPageScreenshotKeyword.groovy:125)
+	at com.kms.katalon.core.webui.keyword.builtin.TakeFullPageScreenshotKeyword.execute(TakeFullPageScreenshotKeyword.groovy:82)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.takeFullPageScreenshotAsCheckpoint(WebUiBuiltInKeywords.groovy:3431)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$takeFullPageScreenshotAsCheckpoint$1.call(Unknown Source)
+	at Script1651859552636.run(Script1651859552636.groovy:24)
+	... 16 more
+)]]></system-out>
+         <system-err><![CDATA[2022-05-11 11:17:42 - [TEST_CASE][FAILED] - Test Cases/CNN: Test Cases/CNN FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Cannot take screenshot
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.TakeFullPageScreenshotKeyword.takeScreenshot(TakeFullPageScreenshotKeyword.groovy:125)
+	at com.kms.katalon.core.webui.keyword.builtin.TakeFullPageScreenshotKeyword.execute(TakeFullPageScreenshotKeyword.groovy:82)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.takeFullPageScreenshotAsCheckpoint(WebUiBuiltInKeywords.groovy:3431)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$takeFullPageScreenshotAsCheckpoint$1.call(Unknown Source)
+	at CNN.run(CNN:24)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:363)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:363)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:363)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1652292915800.run(TempTestSuite1652292915800.groovy:36)
+Caused by: org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=101.0.4951.64)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'Mais-MacBook-Pro.local', ip: 'fe80:0:0:0:df:8530:4068:1ee%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '1.8.0_275'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 101.0.4951.64, chrome: {chromedriverVersion: 101.0.4951.41 (93c720db8323..., userDataDir: /var/folders/j0/1r5r67yd2s1...}, goog:chromeOptions: {debuggerAddress: localhost:52390}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 10ca3d85413c11c068fce9c3459946e5
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:19)
+	at org.openqa.selenium.remote.RemoteWebDriver.executeScript(RemoteWebDriver.java:489)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.lambda$new$1(EventFiringWebDriver.java:105)
+	at com.sun.proxy.$Proxy10.executeScript(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.executeScript(EventFiringWebDriver.java:229)
+	at com.assertthat.selenium_shutterbug.utils.web.Browser.executeJsScript(Browser.java:668)
+	at com.assertthat.selenium_shutterbug.utils.web.Browser.<init>(Browser.java:83)
+	at com.assertthat.selenium_shutterbug.core.Shutterbug.shootPage(Shutterbug.java:139)
+	at com.assertthat.selenium_shutterbug.core.Shutterbug.shootPage(Shutterbug.java:83)
+	at com.assertthat.selenium_shutterbug.core.Shutterbug.shootPage(Shutterbug.java:69)
+	at com.kms.katalon.core.webui.util.FileUtil.takeFullPageScreenshot(FileUtil.java:86)
+	at com.kms.katalon.core.webui.keyword.builtin.TakeFullPageScreenshotKeyword$_takeScreenshot_closure1.doCall(TakeFullPageScreenshotKeyword.groovy:126)
+	at com.kms.katalon.core.webui.keyword.builtin.TakeFullPageScreenshotKeyword$_takeScreenshot_closure1.call(TakeFullPageScreenshotKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 22 more]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2022-05-11 11:15:22 - [TEST_SUITE][FAILED] - CNN: Test Cases/CNN FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Cannot take screenshot
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.TakeFullPageScreenshotKeyword.takeScreenshot(TakeFullPageScreenshotKeyword.groovy:125)
+	at com.kms.katalon.core.webui.keyword.builtin.TakeFullPageScreenshotKeyword.execute(TakeFullPageScreenshotKeyword.groovy:82)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.takeFullPageScreenshotAsCheckpoint(WebUiBuiltInKeywords.groovy:3431)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$takeFullPageScreenshotAsCheckpoint$1.call(Unknown Source)
+	at CNN.run(CNN:24)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1652292915800.run(TempTestSuite1652292915800.groovy:36)
+Caused by: java.lang.RuntimeException: java.lang.reflect.InvocationTargetException
+	at com.assertthat.selenium_shutterbug.utils.web.Browser.sendCommand(Browser.java:678)
+	at com.assertthat.selenium_shutterbug.utils.web.Browser.takeFullPageScreenshotChromeCommand(Browser.java:549)
+	at com.assertthat.selenium_shutterbug.utils.web.Browser.takeFullPageScreenshot(Browser.java:150)
+	at com.assertthat.selenium_shutterbug.core.Shutterbug.shootPage(Shutterbug.java:154)
+	at com.assertthat.selenium_shutterbug.core.Shutterbug.shootPage(Shutterbug.java:83)
+	at com.assertthat.selenium_shutterbug.core.Shutterbug.shootPage(Shutterbug.java:69)
+	at com.kms.katalon.core.webui.util.FileUtil.takeFullPageScreenshot(FileUtil.java:86)
+	at com.kms.katalon.core.webui.keyword.builtin.TakeFullPageScreenshotKeyword$_takeScreenshot_closure1.doCall(TakeFullPageScreenshotKeyword.groovy:126)
+	at com.kms.katalon.core.webui.keyword.builtin.TakeFullPageScreenshotKeyword$_takeScreenshot_closure1.call(TakeFullPageScreenshotKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.TakeFullPageScreenshotKeyword.takeScreenshot(TakeFullPageScreenshotKeyword.groovy:125)
+	at com.kms.katalon.core.webui.keyword.builtin.TakeFullPageScreenshotKeyword.execute(TakeFullPageScreenshotKeyword.groovy:82)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.takeFullPageScreenshotAsCheckpoint(WebUiBuiltInKeywords.groovy:3431)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$takeFullPageScreenshotAsCheckpoint$1.call(Unknown Source)
+	at Script1651859552636.run(Script1651859552636.groovy:24)
+	... 13 more
+Caused by: java.lang.reflect.InvocationTargetException
+	at com.assertthat.selenium_shutterbug.utils.web.Browser.sendCommand(Browser.java:675)
+	... 28 more
+Caused by: org.openqa.selenium.WebDriverException: unknown error: session deleted because of page crash
+from unknown error: cannot determine loading status
+from tab crashed
+  (Session info: chrome=101.0.4951.64)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'Mais-MacBook-Pro.local', ip: 'fe80:0:0:0:df:8530:4068:1ee%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '1.8.0_275'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 101.0.4951.64, chrome: {chromedriverVersion: 101.0.4951.41 (93c720db8323..., userDataDir: /var/folders/j0/1r5r67yd2s1...}, goog:chromeOptions: {debuggerAddress: localhost:50983}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 5952488d2d713d330cf6673369bb09c9
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:19)
+	at com.assertthat.selenium_shutterbug.utils.web.Browser.sendCommand(Browser.java:675)
+	at com.assertthat.selenium_shutterbug.utils.web.Browser.takeFullPageScreenshotChromeCommand(Browser.java:549)
+	at com.assertthat.selenium_shutterbug.utils.web.Browser.takeFullPageScreenshot(Browser.java:150)
+	at com.assertthat.selenium_shutterbug.core.Shutterbug.shootPage(Shutterbug.java:154)
+	at com.assertthat.selenium_shutterbug.core.Shutterbug.shootPage(Shutterbug.java:83)
+	at com.assertthat.selenium_shutterbug.core.Shutterbug.shootPage(Shutterbug.java:69)
+	at com.kms.katalon.core.webui.util.FileUtil.takeFullPageScreenshot(FileUtil.java:86)
+	at com.kms.katalon.core.webui.keyword.builtin.TakeFullPageScreenshotKeyword$_takeScreenshot_closure1.doCall(TakeFullPageScreenshotKeyword.groovy:126)
+	at com.kms.katalon.core.webui.keyword.builtin.TakeFullPageScreenshotKeyword$_takeScreenshot_closure1.call(TakeFullPageScreenshotKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.TakeFullPageScreenshotKeyword.takeScreenshot(TakeFullPageScreenshotKeyword.groovy:125)
+	at com.kms.katalon.core.webui.keyword.builtin.TakeFullPageScreenshotKeyword.execute(TakeFullPageScreenshotKeyword.groovy:82)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.takeFullPageScreenshotAsCheckpoint(WebUiBuiltInKeywords.groovy:3431)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$takeFullPageScreenshotAsCheckpoint$1.call(Unknown Source)
+	at CNN.run(CNN:24)
+	... 13 more]]></system-out>
+      <system-err><![CDATA[2022-05-11 11:15:22 - [TEST_SUITE][FAILED] - CNN: Test Cases/CNN FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Cannot take screenshot
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.TakeFullPageScreenshotKeyword.takeScreenshot(TakeFullPageScreenshotKeyword.groovy:125)
+	at com.kms.katalon.core.webui.keyword.builtin.TakeFullPageScreenshotKeyword.execute(TakeFullPageScreenshotKeyword.groovy:82)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.takeFullPageScreenshotAsCheckpoint(WebUiBuiltInKeywords.groovy:3431)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$takeFullPageScreenshotAsCheckpoint$1.call(Unknown Source)
+	at CNN.run(CNN:24)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1652292915800.run(TempTestSuite1652292915800.groovy:36)
+Caused by: java.lang.RuntimeException: java.lang.reflect.InvocationTargetException
+	at com.assertthat.selenium_shutterbug.utils.web.Browser.sendCommand(Browser.java:678)
+	at com.assertthat.selenium_shutterbug.utils.web.Browser.takeFullPageScreenshotChromeCommand(Browser.java:549)
+	at com.assertthat.selenium_shutterbug.utils.web.Browser.takeFullPageScreenshot(Browser.java:150)
+	at com.assertthat.selenium_shutterbug.core.Shutterbug.shootPage(Shutterbug.java:154)
+	at com.assertthat.selenium_shutterbug.core.Shutterbug.shootPage(Shutterbug.java:83)
+	at com.assertthat.selenium_shutterbug.core.Shutterbug.shootPage(Shutterbug.java:69)
+	at com.kms.katalon.core.webui.util.FileUtil.takeFullPageScreenshot(FileUtil.java:86)
+	at com.kms.katalon.core.webui.keyword.builtin.TakeFullPageScreenshotKeyword$_takeScreenshot_closure1.doCall(TakeFullPageScreenshotKeyword.groovy:126)
+	at com.kms.katalon.core.webui.keyword.builtin.TakeFullPageScreenshotKeyword$_takeScreenshot_closure1.call(TakeFullPageScreenshotKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.TakeFullPageScreenshotKeyword.takeScreenshot(TakeFullPageScreenshotKeyword.groovy:125)
+	at com.kms.katalon.core.webui.keyword.builtin.TakeFullPageScreenshotKeyword.execute(TakeFullPageScreenshotKeyword.groovy:82)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.takeFullPageScreenshotAsCheckpoint(WebUiBuiltInKeywords.groovy:3431)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$takeFullPageScreenshotAsCheckpoint$1.call(Unknown Source)
+	at Script1651859552636.run(Script1651859552636.groovy:24)
+	... 13 more
+Caused by: java.lang.reflect.InvocationTargetException
+	at com.assertthat.selenium_shutterbug.utils.web.Browser.sendCommand(Browser.java:675)
+	... 28 more
+Caused by: org.openqa.selenium.WebDriverException: unknown error: session deleted because of page crash
+from unknown error: cannot determine loading status
+from tab crashed
+  (Session info: chrome=101.0.4951.64)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'Mais-MacBook-Pro.local', ip: 'fe80:0:0:0:df:8530:4068:1ee%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '1.8.0_275'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 101.0.4951.64, chrome: {chromedriverVersion: 101.0.4951.41 (93c720db8323..., userDataDir: /var/folders/j0/1r5r67yd2s1...}, goog:chromeOptions: {debuggerAddress: localhost:50983}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 5952488d2d713d330cf6673369bb09c9
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:19)
+	at com.assertthat.selenium_shutterbug.utils.web.Browser.sendCommand(Browser.java:675)
+	at com.assertthat.selenium_shutterbug.utils.web.Browser.takeFullPageScreenshotChromeCommand(Browser.java:549)
+	at com.assertthat.selenium_shutterbug.utils.web.Browser.takeFullPageScreenshot(Browser.java:150)
+	at com.assertthat.selenium_shutterbug.core.Shutterbug.shootPage(Shutterbug.java:154)
+	at com.assertthat.selenium_shutterbug.core.Shutterbug.shootPage(Shutterbug.java:83)
+	at com.assertthat.selenium_shutterbug.core.Shutterbug.shootPage(Shutterbug.java:69)
+	at com.kms.katalon.core.webui.util.FileUtil.takeFullPageScreenshot(FileUtil.java:86)
+	at com.kms.katalon.core.webui.keyword.builtin.TakeFullPageScreenshotKeyword$_takeScreenshot_closure1.doCall(TakeFullPageScreenshotKeyword.groovy:126)
+	at com.kms.katalon.core.webui.keyword.builtin.TakeFullPageScreenshotKeyword$_takeScreenshot_closure1.call(TakeFullPageScreenshotKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.TakeFullPageScreenshotKeyword.takeScreenshot(TakeFullPageScreenshotKeyword.groovy:125)
+	at com.kms.katalon.core.webui.keyword.builtin.TakeFullPageScreenshotKeyword.execute(TakeFullPageScreenshotKeyword.groovy:82)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.takeFullPageScreenshotAsCheckpoint(WebUiBuiltInKeywords.groovy:3431)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$takeFullPageScreenshotAsCheckpoint$1.call(Unknown Source)
+	at CNN.run(CNN:24)
+	... 13 more]]></system-err>
+   </testsuite>
+</testsuites>

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="KMS - Full" time="19.838" tests="1" failures="0" errors="0">
+   <testsuite name="KMS - Full" tests="1" failures="0" errors="0" time="19.838" skipped="0" timestamp="2022-05-11 16:38:32" hostname="maile - localhost" id="Test Suites/KMS - Full">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="/Volumes/Data/katalon/sample-project/visual-testing/Visual Testing Demo/Reports/20220511_163823/KMS - Full/20220511_163824"/>
+         <property name="logFiles" value="/Volumes/Data/katalon/sample-project/visual-testing/Visual Testing Demo/Reports/20220511_163823/KMS - Full/20220511_163824/execution0.log"/>
+         <property name="attachments" value="keyes/keyes-kms_full.png"/>
+         <property name="hostName" value="maile - localhost"/>
+         <property name="os" value="Mac OS X 64bit"/>
+         <property name="katalonVersion" value="8.2.5.208"/>
+         <property name="browser" value="Chrome 101.0.4951.64"/>
+         <property name="hostAddress" value="127.0.0.1"/>
+         <property name="sessionId" value="30f52f18f47a4efde7c8c33a930cc18f"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Mac OS X"/>
+      </properties>
+      <testcase name="Test Cases/KMS" time="19.368" classname="Test Cases/KMS" status="PASSED">
+         <system-out><![CDATA[2022-05-11 16:38:32 - [TEST_CASE][PASSED] - Test Cases/KMS: Test Cases/KMS
+
+2022-05-11 16:38:33 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-05-11 16:38:33 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-05-11 16:38:33 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-05-11 16:38:40 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-05-11 16:38:40 - [TEST_STEP][PASSED] - navigateToUrl("https://kms-technology.com/"): Navigate to 'https://kms-technology.com/' successfully
+
+2022-05-11 16:38:47 - [MESSAGE][PASSED] - Navigate to 'https://kms-technology.com/' successfully
+
+2022-05-11 16:38:47 - [TEST_STEP][PASSED] - takeFullPageScreenshotAsCheckpoint("kms_full"): Taking screenshot successfully
+
+2022-05-11 16:38:50 - [MESSAGE][INFO] - 0 hidden object(s)
+
+2022-05-11 16:38:52 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|keyes/keyes-kms_full.png]]]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2022-05-11 16:38:32 - [TEST_SUITE][PASSED] - KMS - Full: Test Cases/KMS]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

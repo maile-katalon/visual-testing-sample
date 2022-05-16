@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="CNN" time="117.714" tests="1" failures="0" errors="0">
+   <testsuite name="CNN" tests="1" failures="0" errors="0" time="117.714" skipped="0" timestamp="2022-05-11 11:28:21" hostname="maile - localhost" id="Test Suites/CNN">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="/Volumes/Data/katalon/sample-project/visual-testing/Visual Testing Demo/Reports/20220511_112815/CNN/20220511_112815"/>
+         <property name="logFiles" value="/Volumes/Data/katalon/sample-project/visual-testing/Visual Testing Demo/Reports/20220511_112815/CNN/20220511_112815/execution0.log"/>
+         <property name="attachments" value="keyes/keyes-full_view.png"/>
+         <property name="hostName" value="maile - localhost"/>
+         <property name="os" value="Mac OS X 64bit"/>
+         <property name="katalonVersion" value="8.2.5.208"/>
+         <property name="browser" value="Chrome 101.0.4951.64"/>
+         <property name="hostAddress" value="127.0.0.1"/>
+         <property name="sessionId" value="33031d27c6e3d950574680b24d445c2c"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Mac OS X"/>
+      </properties>
+      <testcase name="Test Cases/CNN" time="117.323" classname="Test Cases/CNN" status="PASSED">
+         <system-out><![CDATA[2022-05-11 11:28:22 - [TEST_CASE][PASSED] - Test Cases/CNN: Test Cases/CNN
+
+2022-05-11 11:28:22 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-05-11 11:28:22 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-05-11 11:28:22 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-05-11 11:28:26 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-05-11 11:28:26 - [TEST_STEP][PASSED] - navigateToUrl("https://www.cnn.com/"): Navigate to 'https://www.cnn.com/' successfully
+
+2022-05-11 11:29:51 - [MESSAGE][PASSED] - Navigate to 'https://www.cnn.com/' successfully
+
+2022-05-11 11:29:51 - [TEST_STEP][PASSED] - takeFullPageScreenshotAsCheckpoint("full_view"): Taking screenshot successfully
+
+2022-05-11 11:30:12 - [MESSAGE][INFO] - 0 hidden object(s)
+
+2022-05-11 11:30:19 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|keyes/keyes-full_view.png]]]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2022-05-11 11:28:21 - [TEST_SUITE][PASSED] - CNN: Test Cases/CNN]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

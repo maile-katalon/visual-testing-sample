@@ -1,0 +1,7 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Aha,Chrome 101.0.4951.64,,,2022-05-11 13:24:53,2022-05-11 13:25:29,35.522s,PASSED
+,,,,,,,
+Test Cases/Aha,Chrome 101.0.4951.64,,,2022-05-11 13:24:54,2022-05-11 13:25:29,35.073s,PASSED
+"openBrowser("""")",Chrome 101.0.4951.64,,,2022-05-11 13:24:54,2022-05-11 13:25:00,5.505s,PASSED
+"navigateToUrl(""https://www.aha.io/"")",Chrome 101.0.4951.64,,,2022-05-11 13:25:00,2022-05-11 13:25:15,14.965s,PASSED
+"takeFullPageScreenshotAsCheckpoint(""full_view"")",Chrome 101.0.4951.64,,,2022-05-11 13:25:15,2022-05-11 13:25:29,14.240s,PASSED

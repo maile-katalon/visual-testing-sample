@@ -1,0 +1,9 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+KBB,Chrome 101.0.4951.64,,,2022-05-11 18:51:02,2022-05-11 18:51:27,24.952s,PASSED
+,,,,,,,
+Test Cases/kbb - short,Chrome 101.0.4951.64,,,2022-05-11 18:51:03,2022-05-11 18:51:27,24.495s,PASSED
+"openBrowser("""")",Chrome 101.0.4951.64,,,2022-05-11 18:51:03,2022-05-11 18:51:08,5.080s,PASSED
+"navigateToUrl(""https://www.kbb.ca/acura/"")",Chrome 101.0.4951.64,,,2022-05-11 18:51:08,2022-05-11 18:51:23,14.479s,PASSED
+"click(findTestObject(""Object Repository/Page_Used Acura Prices Cars  SUVs  KBB.CA/span""))",Chrome 101.0.4951.64,,,2022-05-11 18:51:23,2022-05-11 18:51:25,1.963s,PASSED
+"takeScreenshotAsCheckpoint(""kbb_short"")",Chrome 101.0.4951.64,,,2022-05-11 18:51:25,2022-05-11 18:51:27,2.360s,PASSED
+closeBrowser(),Chrome 101.0.4951.64,,,2022-05-11 18:51:27,2022-05-11 18:51:27,0.190s,PASSED

@@ -1,0 +1,7 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+KMS - Full,Chrome 101.0.4951.64,,,2022-05-11 16:43:35,2022-05-11 16:43:55,19.900s,PASSED
+,,,,,,,
+Test Cases/KMS,Chrome 101.0.4951.64,,,2022-05-11 16:43:35,2022-05-11 16:43:55,19.456s,PASSED
+"openBrowser("""")",Chrome 101.0.4951.64,,,2022-05-11 16:43:36,2022-05-11 16:43:40,4.846s,PASSED
+"navigateToUrl(""https://kms-technology.com/"")",Chrome 101.0.4951.64,,,2022-05-11 16:43:40,2022-05-11 16:43:50,10.065s,PASSED
+"takeFullPageScreenshotAsCheckpoint(""kms_full"")",Chrome 101.0.4951.64,,,2022-05-11 16:43:50,2022-05-11 16:43:55,4.086s,PASSED

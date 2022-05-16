@@ -1,0 +1,7 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+CNN,Chrome 101.0.4951.64,,,2022-05-11 11:03:58,2022-05-11 11:04:53,55.072s,PASSED
+,,,,,,,
+Test Cases/CNN,Chrome 101.0.4951.64,,,2022-05-11 11:03:58,2022-05-11 11:04:53,54.576s,PASSED
+"openBrowser("""")",Chrome 101.0.4951.64,,,2022-05-11 11:03:59,2022-05-11 11:04:04,5.109s,PASSED
+"navigateToUrl(""https://www.cnn.com/"")",Chrome 101.0.4951.64,,,2022-05-11 11:04:04,2022-05-11 11:04:30,26.107s,PASSED
+takeFullPageScreenshot(),Chrome 101.0.4951.64,,,2022-05-11 11:04:30,2022-05-11 11:04:53,22.991s,PASSED

@@ -1,0 +1,7 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Petronas,Chrome 101.0.4951.64,,,2022-05-11 18:26:22,2022-05-11 18:26:40,17.720s,PASSED
+,,,,,,,
+Test Cases/Petronas,Chrome 101.0.4951.64,,,2022-05-11 18:26:23,2022-05-11 18:26:40,17.241s,PASSED
+"openBrowser("""")",Chrome 101.0.4951.64,,,2022-05-11 18:26:23,2022-05-11 18:26:28,4.569s,PASSED
+"navigateToUrl(""https://www.petronas.com/"")",Chrome 101.0.4951.64,,,2022-05-11 18:26:28,2022-05-11 18:26:35,6.968s,PASSED
+"takeScreenshotAsCheckpoint(""petronas_short"")",Chrome 101.0.4951.64,,,2022-05-11 18:26:35,2022-05-11 18:26:40,5.236s,PASSED

@@ -1,0 +1,12 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+All,Chrome 101.0.4951.64,,,2022-05-11 18:06:05,2022-05-11 18:07:04,58.690s,PASSED
+,,,,,,,
+Test Cases/Aha - Short,Chrome 101.0.4951.64,,,2022-05-11 18:06:06,2022-05-11 18:06:49,43.037s,PASSED
+"openBrowser("""")",Chrome 101.0.4951.64,,,2022-05-11 18:06:07,2022-05-11 18:06:13,6.373s,PASSED
+"navigateToUrl(""https://www.aha.io/"")",Chrome 101.0.4951.64,,,2022-05-11 18:06:13,2022-05-11 18:06:40,27.033s,PASSED
+"takeScreenshotAsCheckpoint(""current_viewport"")",Chrome 101.0.4951.64,,,2022-05-11 18:06:40,2022-05-11 18:06:49,9.034s,PASSED
+,,,,,,,
+Test Cases/Petronas,Chrome 101.0.4951.64,,,2022-05-11 18:06:49,2022-05-11 18:07:04,14.925s,PASSED
+"openBrowser("""")",Chrome 101.0.4951.64,,,2022-05-11 18:06:50,2022-05-11 18:06:51,1.770s,PASSED
+"navigateToUrl(""https://www.petronas.com/"")",Chrome 101.0.4951.64,,,2022-05-11 18:06:51,2022-05-11 18:06:59,7.717s,PASSED
+"takeFullPageScreenshotAsCheckpoint(""petronas_short"")",Chrome 101.0.4951.64,,,2022-05-11 18:06:59,2022-05-11 18:07:04,4.905s,PASSED

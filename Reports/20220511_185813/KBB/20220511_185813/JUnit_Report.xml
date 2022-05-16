@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="KBB" time="27.258" tests="1" failures="0" errors="0">
+   <testsuite name="KBB" tests="1" failures="0" errors="0" time="27.258" skipped="0" timestamp="2022-05-11 18:58:19" hostname="maile - localhost" id="Test Suites/KBB">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="/Volumes/Data/katalon/sample-project/visual-testing/Visual Testing Demo/Reports/20220511_185813/KBB/20220511_185813"/>
+         <property name="logFiles" value="/Volumes/Data/katalon/sample-project/visual-testing/Visual Testing Demo/Reports/20220511_185813/KBB/20220511_185813/execution0.log"/>
+         <property name="attachments" value="keyes/keyes-kbb_short.png"/>
+         <property name="hostName" value="maile - localhost"/>
+         <property name="os" value="Mac OS X 64bit"/>
+         <property name="katalonVersion" value="8.2.5.208"/>
+         <property name="browser" value="Chrome 101.0.4951.64"/>
+         <property name="hostAddress" value="127.0.0.1"/>
+         <property name="sessionId" value="4ec2aff17e0124131ffd1fd08829ad26"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Mac OS X"/>
+      </properties>
+      <testcase name="Test Cases/kbb - short" time="26.822" classname="Test Cases/kbb - short" status="PASSED">
+         <system-out><![CDATA[2022-05-11 18:58:19 - [TEST_CASE][PASSED] - Test Cases/kbb - short: Test Cases/kbb - short
+
+2022-05-11 18:58:20 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-05-11 18:58:20 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-05-11 18:58:20 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-05-11 18:58:25 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-05-11 18:58:25 - [TEST_STEP][PASSED] - navigateToUrl("https://www.kbb.ca/acura/"): Navigate to 'https://www.kbb.ca/acura/' successfully
+
+2022-05-11 18:58:41 - [MESSAGE][PASSED] - Navigate to 'https://www.kbb.ca/acura/' successfully
+
+2022-05-11 18:58:41 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Used Acura Prices Cars  SUVs  KBB.CA/span")): Object: 'Object Repository/Page_Used Acura Prices Cars  SUVs  KBB.CA/span' is clicked on
+
+2022-05-11 18:58:45 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Used Acura Prices Cars  SUVs  KBB.CA/span' is clicked on
+
+2022-05-11 18:58:45 - [TEST_STEP][PASSED] - takeScreenshotAsCheckpoint("kbb_short"): Taking screenshot successfully
+
+2022-05-11 18:58:46 - [MESSAGE][INFO] - 0 hidden object(s)
+
+2022-05-11 18:58:46 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|keyes/keyes-kbb_short.png]]]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2022-05-11 18:58:19 - [TEST_SUITE][PASSED] - KBB: Test Cases/kbb - short]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

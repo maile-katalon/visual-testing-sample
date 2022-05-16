@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Aha" time="35.522" tests="1" failures="0" errors="0">
+   <testsuite name="Aha" tests="1" failures="0" errors="0" time="35.522" skipped="0" timestamp="2022-05-11 13:24:53" hostname="maile - localhost" id="Test Suites/Aha">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="/Volumes/Data/katalon/sample-project/visual-testing/Visual Testing Demo/Reports/20220511_132447/Aha/20220511_132447"/>
+         <property name="logFiles" value="/Volumes/Data/katalon/sample-project/visual-testing/Visual Testing Demo/Reports/20220511_132447/Aha/20220511_132447/execution0.log"/>
+         <property name="attachments" value="keyes/keyes-full_view.png"/>
+         <property name="hostName" value="maile - localhost"/>
+         <property name="os" value="Mac OS X 64bit"/>
+         <property name="katalonVersion" value="8.2.5.208"/>
+         <property name="browser" value="Chrome 101.0.4951.64"/>
+         <property name="hostAddress" value="127.0.0.1"/>
+         <property name="sessionId" value="fa51173fa67b9de757b188c32b6661c4"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Mac OS X"/>
+      </properties>
+      <testcase name="Test Cases/Aha" time="35.073" classname="Test Cases/Aha" status="PASSED">
+         <system-out><![CDATA[2022-05-11 13:24:54 - [TEST_CASE][PASSED] - Test Cases/Aha: Test Cases/Aha
+
+2022-05-11 13:24:54 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-05-11 13:24:54 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-05-11 13:24:54 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-05-11 13:25:00 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-05-11 13:25:00 - [TEST_STEP][PASSED] - navigateToUrl("https://www.aha.io/"): Navigate to 'https://www.aha.io/' successfully
+
+2022-05-11 13:25:15 - [MESSAGE][PASSED] - Navigate to 'https://www.aha.io/' successfully
+
+2022-05-11 13:25:15 - [TEST_STEP][PASSED] - takeFullPageScreenshotAsCheckpoint("full_view"): Taking screenshot successfully
+
+2022-05-11 13:25:25 - [MESSAGE][INFO] - 0 hidden object(s)
+
+2022-05-11 13:25:29 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|keyes/keyes-full_view.png]]]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2022-05-11 13:24:53 - [TEST_SUITE][PASSED] - Aha: Test Cases/Aha]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>
