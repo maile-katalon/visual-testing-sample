@@ -23,5 +23,5 @@ WebUI.navigateToUrl('https://www.kbb.ca/acura/')
 
 WebUI.click(findTestObject('Object Repository/Page_Used Acura Prices Cars  SUVs  KBB.CA/span'))
 
-WebUI.takeFullPageScreenshotAsCheckpoint('kbb_short')
+WebUI.takeFullPageScreenshotAsCheckpoint('kbb_full')
 

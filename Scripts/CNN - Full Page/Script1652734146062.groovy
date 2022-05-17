@@ -21,7 +21,5 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl('https://www.cnn.com/')
 
-WebUI.setViewPortSize(996,7659)
-
-WebUI.takeScreenshotAsCheckpoint('cnn_full_view')
+WebUI.takeFullPageScreenshotAsCheckpoint('cnn_full_view')
 
