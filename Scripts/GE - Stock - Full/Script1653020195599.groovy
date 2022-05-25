@@ -19,6 +19,6 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser('')
 
-WebUI.navigateToUrl('https://www.cnn.com/')
+WebUI.navigateToUrl('https://www.ge.com/investor-relations/stocks')
 
-WebUI.takeFullPageScreenshotAsCheckpoint('https://www.ge.com/investor-relations/stocks')
+WebUI.takeFullPageScreenshotAsCheckpoint('ge_stocks')
