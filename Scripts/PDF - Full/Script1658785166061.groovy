@@ -19,5 +19,5 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser('https://2465122.fs1.hubspotusercontent-na1.net/hubfs/2465122/download-content/whitepaper/Continuous_Testing_Navigator_2022.pdf')
 
-WebUI.takeScreenshotAsCheckpoint('pdf')
+WebUI.takeFullPageScreenshotAsCheckpoint('pdf')
 
