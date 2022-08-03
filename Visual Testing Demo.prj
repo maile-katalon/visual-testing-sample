@@ -6,6 +6,7 @@
    <UUID>bcc019fa-2d18-40c4-84ec-fb590003b476</UUID>
    <migratedVersion>5.9.0</migratedVersion>
    <pageLoadTimeout>0</pageLoadTimeout>
+   <projectFileLocation>/Volumes/Data/katalon/sample-project/visual-testing-sample/Visual Testing Demo.prj</projectFileLocation>
    <sourceContent>
       <sourceFolderList>
          <sourceFolderConfiguration>

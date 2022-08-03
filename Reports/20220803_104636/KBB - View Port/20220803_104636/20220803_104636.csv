@@ -1,0 +1,9 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+KBB - View Port,Chrome 103.0.5060.134,,,2022-08-03 10:46:44,2022-08-03 10:47:09,25.297s,PASSED
+,,,,,,,
+Test Cases/Kbb - View Port,Chrome 103.0.5060.134,,,2022-08-03 10:46:44,2022-08-03 10:47:09,24.898s,PASSED
+"openBrowser("""")",Chrome 103.0.5060.134,,,2022-08-03 10:46:45,2022-08-03 10:46:51,6.469s,PASSED
+"navigateToUrl(""https://www.kbb.ca/acura/"")",Chrome 103.0.5060.134,,,2022-08-03 10:46:51,2022-08-03 10:47:02,11.123s,PASSED
+"setViewPortSize(703, 347)",Chrome 103.0.5060.134,Set viewport size 703x347,,2022-08-03 10:47:02,2022-08-03 10:47:06,4.066s,PASSED
+"click(findTestObject(""Object Repository/Page_Used Acura Prices Cars  SUVs  KBB.CA/span""))",Chrome 103.0.5060.134,,,2022-08-03 10:47:06,2022-08-03 10:47:08,1.762s,PASSED
+"takeScreenshotAsCheckpoint(""kbb_viewport"")",Chrome 103.0.5060.134,,,2022-08-03 10:47:08,2022-08-03 10:47:09,1.072s,PASSED
