@@ -15,7 +15,7 @@
       <guid>9040f13d-eef7-4073-98e6-1e46707c65e0</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Katalon - View Port</testCaseId>
+      <testCaseId>Test Cases/Archived/Katalon - View Port</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
 </TestSuiteEntity>
